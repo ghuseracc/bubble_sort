@@ -6,7 +6,6 @@ def bubble_sort(array)
                 sort_number = array[value_index]
                 array[value_index] = array[value_index + 1]
                 array[value_index + 1] = sort_number
-                puts "#{array}"
             end
         end
         count += 1
